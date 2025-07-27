@@ -1,0 +1,62 @@
+body {
+    font-family: monospace;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px inset black;
+}
+
+.logo {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu li.active a {
+    color: orangered;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.images img {
+    width: 30%;
+    border: 1px solid #333;
+}
+
+.description {
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto;
+}
