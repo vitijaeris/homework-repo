@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.parent {
+    width: 600px;
+    height: 400px;
+    background-color: #ffb6c1;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 450px;
+    height: 250px;
+    background-color: #006400;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.element {
+    width: 350px;
+    height: 150px;
+    background-color: #ffff00;
+    border: 2px solid black;
+    position: absolute;
+    bottom: -50px;
+    right: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
